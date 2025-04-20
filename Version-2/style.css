@@ -1,0 +1,23 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200..900&display=swap');
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: #000;
+}
+
+.text-container {
+  white-space: nowrap;
+}
+
+span {
+  font-family: "Source Sans 3";
+  font-size: 5em;
+  color: white;
+  will-change: font-variation-settings;
+}
